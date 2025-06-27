@@ -1,0 +1,28 @@
+{
+  "name": "railgun-python-bridge",
+  "version": "1.0.0",
+  "description": "JavaScript bridge for RAILGUN SDK to be used with Python",
+  "main": "railgun_wrapper.js",
+  "scripts": {
+    "install-deps": "npm install",
+    "test": "node railgun_wrapper.js init polygon"
+  },
+  "dependencies": {
+    "@railgun-community/engine": "^9.4.0",
+    "@railgun-community/shared-models": "^7.6.1",
+    "@railgun-community/wallet": "^10.3.3",
+    "ethers": "^6.13.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "railgun",
+    "privacy",
+    "ethereum",
+    "defi",
+    "zk-snarks"
+  ],
+  "author": "Railgun Bridge",
+  "license": "MIT"
+}
